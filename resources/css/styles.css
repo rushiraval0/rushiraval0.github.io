@@ -344,6 +344,15 @@ img {
   transition: 0.3s;
 }
 
+.button--white {
+  background-color: #fff;
+  color: var(--first-color);
+}
+
+.button--white:hover {
+  background-color: #fff;
+}
+
 .button--flex {
   display: inline-flex;
   align-items: center;
@@ -674,8 +683,81 @@ img {
 }
 /*==================== PORTFOLIO ====================*/
 /*==================== PROJECT IN MIND ====================*/
+
+.project {
+  text-align: center;
+}
+
+.project__bg {
+  background-color: var(--first-color-second);
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.project__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.project__description {
+  margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description {
+  color: #fff;
+}
+
 /*==================== TESTIMONIAL ====================*/
 /*==================== CONTACT ME ====================*/
+
+.contact__container {
+  row-gap: 3rem;
+}
+
+.contact__information {
+  display: flex;
+  margin-bottom: var(--mb-2);
+}
+
+.contact__icon {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-right: var(--mb-0-75);
+}
+
+.contact__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+.contact__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.contact__content {
+  background-color: var(--input-color);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem 0.25rem;
+}
+
+.contact__label {
+  font-size: var(--smaller-font-size);
+  color: var(--title-color);
+}
+
+.contact__input {
+  width: 100%;
+  background-color: var(--input-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
 /*==================== FOOTER ====================*/
 /*========== SCROLL UP ==========*/ /* Show scroll */
 /*========== SCROLL BAR ==========*/
