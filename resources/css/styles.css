@@ -993,17 +993,17 @@ img {
   }
 
   .nav__link {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
   }
 
   .nav__btns,
   .nav__logo {
-    padding-top: 2rem;
+    padding-top: 2.5rem;
   }
 
   .header {
     top: 0;
-    height: 3rem;
+    height: 4rem;
     justify-content: center;
     bottom: initial;
   }
@@ -1120,6 +1120,7 @@ img {
 
   .project__data {
     padding-top: 0.8rem;
+    padding-bottom: 1.5rem;
   }
 
   .footer__container {
