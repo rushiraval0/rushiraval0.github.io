@@ -10,7 +10,7 @@
   /* background-size: cover;  */
   margin: -31px;
   margin-left: -7px;
-  border: 6px solid #00af92;
+  border: 6px solid #758694;
   border-radius: 50% !important;
 }
 
@@ -50,11 +50,11 @@
 }
 
 .github {
-  color: black;
+  color: #405d72;
 }
 
 .linkedin {
-  color: black;
+  color: #405d72;
 }
 
 .angellist {
@@ -359,7 +359,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgb(86, 104, 104);
+  background-color: #405d72;
   height: 100%;
   left: 0;
   position: absolute;
@@ -552,7 +552,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #758694 !important;
 }
 
 /* .teal-text {
@@ -562,7 +562,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #758694 !important;
 }
 
 /* .teal {
